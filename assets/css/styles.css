@@ -1,5 +1,5 @@
 body, html{
-	background-color: #ffd6b4;
+	background-color: #cebe9f;
 	color: #575757;
 	width: 100%;
 	height: 100%;
@@ -103,7 +103,7 @@ a:hover {
     transform-origin: 0% 50%;
 }
 
-/**home page**/
+/**Home page**/
 #home-section {
 	height: 100vh;
 	display: flex; 
@@ -174,11 +174,11 @@ a:hover {
 	}
 }
 
-/**about**/
+/**About**/
 #about-img {
 	height: 450px;
 	border-radius: 4px;
-	border-top: 20px solid #373737;
+	border-top: 20px solid #7160E8;
 	box-shadow: 12px 12px 1px #949494;
 	overflow-y:hidden;
 	margin: 40px;
@@ -190,7 +190,7 @@ a:hover {
 }
 
 #about-section {
-	background-color: #F0F0F0;
+	background-color: #b6c199;
 	padding: 50px;
 	min-height:100vh;
 }
@@ -205,7 +205,7 @@ a:hover {
 	width: 550px;
 	font-size: 90%;
 	font-family: Monaco,monospace;
-	border-top: 20px solid #373737;
+	border-top: 20px solid #7160E8;
 	border-radius: 4px;
 	background-color: #1E1E1E;
 	box-shadow: 12px 12px 1px #949494;
@@ -227,19 +227,19 @@ ul {
 	color: #DCDCDC;
 }
 
-.green {
+.darkgreen {
 	color: #4DC9B0;
 }
 
-.functions {
+.yellow {
 	color: #DCDCA7;
 }
 
-.args {
+.lightblue {
 	color: #9BDBFE;
 }
 
-.ints {
+.lightgreen {
 	color: #B5CEA8;
 }
 
@@ -253,4 +253,67 @@ ul {
 
 .newline {
 	color: #FDD690;
+}
+
+/**Education**/
+#text .subtitle {
+	margin-bottom:40px;
+}
+
+#education-section {
+	padding:50px;
+	padding-bottom: 80px;
+	min-height:100vh;
+	background-color: #cebe9f;
+}
+
+/* #text {
+	background-color: #474d5a;
+	padding-top:0px;
+} */
+
+/* .parallax {
+	background-image: linear-gradient(147deg, #FFFFFF 0%, #04619f 74%);
+  	min-height: 500px; 
+  	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+} */
+
+#education-section * {
+	color: #575757;
+}
+
+#education-title img {
+	width: 15%;
+}
+
+#school {
+	align-items: flex-start;
+}
+
+#school p {
+	font-size: 14px;
+}
+
+#school * {
+	margin: 8px;
+}
+
+#coursework {
+	align-items: flex-start;
+	font-size: 120%;
+}
+
+li {
+	margin: 5px;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+#progress {
+	font-size: 80%;
 }

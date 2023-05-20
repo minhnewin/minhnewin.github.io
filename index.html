@@ -40,14 +40,20 @@
 
 			<!--About Section-->
 			<section class ="container column" id="about-section">
-				<h1 class="subtitle">HELLO, WORLD!</h1>
+				<h1 class="subtitle">ABOUT ME</h1>
 				<div class="container row" id="img-console">
 					<div id="console">
 						<span class="darkblue">using</span>
 						<span class="white">System</span><span class="white">;</span>
 						<br>
 						<span class="darkblue">using</span>
-						<span class="white">System</span><span class="white">;</span>
+						<span class="white">System.Text</span><span class="white">;</span>
+						<br>
+						<span class="darkblue">using</span>
+						<span class="white">System.Numerics</span><span class="white">;</span>
+						<br>
+						<span class="darkblue">using</span>
+						<span class="white">System.Collections.Generic</span><span class="white">;</span>
 						<br>
 						<br>
 						<span class="darkblue">namespace</span>
@@ -56,36 +62,36 @@
 						<br>
 						<ul>
 							<span class="darkblue">public class</span>
-							<span class="green">Minh</span>
+							<span class="darkgreen">Minh</span>
 							<span class="white">:</span>
-							<span class="green">Human</span>
+							<span class="white">Human</span>
 							<span class="white">{</span>
 							<br>
 							<ul>
 								<span class="darkblue">public</span>
-								<span class="green">Minh</span><!-- 
+								<span class="darkgreen">Minh</span><!-- 
 								--><span class="white">() {</span>
 								<br>
 								<ul>
-									<span class="darkblue">private string</span>
+									<span class="darkblue">string</span>
 									<span class="white">fullName = </span>
 									<span class="orange">"Minh Nguyen"</span><span class="white">;</span>
 									<br>
-									<span class="darkblue">private string</span>
+									<span class="darkblue">string</span>
 									<span class="white">homeTown = </span>
 									<span class="orange">"Kent, WA"</span><span class="white">;</span>
 									<br>
-									<span class="darkblue">private string</span>
+									<span class="darkblue">string</span>
 									<span class="white">school = </span>
 									<span class="orange">"Seattle University"</span><span class="white">;</span>
 									<br>
-									<span class="darkblue">private string</span>
+									<span class="darkblue">string</span>
 									<span class="white">expGraduationMonth = </span>
-									<span class="orange">June</span><span class="white">;</span>
+									<span class="orange">"June"</span><span class="white">;</span>
 									<br>
-									<span class="darkblue">private int</span>
-									<span class="white">"   "expGraduationYear = </span>
-									<span class="orange">2024</span><span class="white">;</span>
+									<span class="darkblue">int</span>
+									<span class="white">expGraduationYear = </span>
+									<span class="lightgreen">2024</span><span class="white">;</span>
 									<br>
 									<!-- <span class="darkblue">String</span>
 									<span class="white">major = </span>
@@ -95,25 +101,26 @@
 									<span class="white">resume = </span>
 									<span class="darkblue">new</span>
 									<span class="white">Resume(</span><span class="orange">"</span><!-- 
-										--><span ><a href="assets/ChristineNguyenResume.pdf" class="orange">pdf</a></span><!-- 
+										--><span ><a href="assets/Minh_Nguyen_Resume.pdf" class="orange">pdf</a></span><!-- 
 										--><span class="orange">"</span><span class="white">)</span><span class="white">;</span>
 									<br>
-									<span class="darkblue">String[]</span>
-									<span class="white">hobbiesAndInterests = </span>
+									<span class="darkblue">string</span><span class="white">[]</span>
+									<span class="lightblue">hobbiesAndInterests</span>
+									<span class="white">=</span>
 									<span class="darkblue">new </span>
-									<span class="darkblue">String[]</span>
+									<span class="darkblue">String</span><span class="white">[5]</span>
 									<span class="white">{</span>
 									<br>
 									<ul>
-										<span class="orange">"video games"</span><span class="white">,</span>
+										<span class="orange">"Video games"</span><span class="white">,</span>
 										<br>
-										<span class="orange">"volleyball"</span><span class="white">,</span>
+										<span class="orange">"Volleyball"</span><span class="white">,</span>
 										<br>
-										<span class="orange">"soccer"</span><span class="white">,</span>
+										<span class="orange">"Soccer"</span><span class="white">,</span>
 										<br>
-										<span class="orange">"keyboards"</span><span class="white">,</span>
+										<span class="orange">"Keyboards"</span><span class="white">,</span>
 										<br>
-										<span class="orange">"board games"</span>
+										<span class="orange">"Board games"</span>
 										<br>
 									</ul>
 									<span class="white">}</span>
@@ -121,22 +128,22 @@
 								</ul>
 								<span class="white">}</span>
 								<br>
-								<span class="darkblue">public static</span>
+								<span class="darkblue">public</span>
 								<span class="darkblue">void</span>
-								<span class="green">contact</span><!-- 
+								<span class="yellow">contact</span><!-- 
 								--><span class="white">() {</span>
 									<ul>
 										<span class="darkblue">Email</span>
 										<span class="white">email = </span>
 										<span class="darkblue">new</span>
 										<span class="white">Email(</span><span class="orange">"</span><!-- 
-										--><span ><a href="mailto:minhnewin@gmail.com" class="orange">christine_nguyenl@berkeley.edu</a></span><!-- 
+										--><span ><a href="mailto:minhnewin@gmail.com" class="orange">minhnewin@gmail.com</a></span><!-- 
 										--><span class="orange">"</span><span class="white">)</span><span class="white">;</span>
 										<br>
-										<span class="darkblue">String[]</span>
+										<span class="darkblue">String</span><span class="white">[]</span>
 										<span class="white">links = </span>
 										<span class="darkblue">new </span>
-										<span class="darkblue">String[]</span>
+										<span class="darkblue">String</span><span class="white">[3]</span>
 										<span class="white">{</span>
 										<br>
 										<ul>
@@ -157,14 +164,70 @@
 									</ul>
 								<span class="white">}</span>
 								<br>
-
-
 							</ul>
 							<span class="white">}</span>
 						</ul>
 						</span>
 					</div>
 					<img src="assets/img/minh_nguyen.jpg" id="about-img">
+				</div>
+			</section>
+
+			<!--Education Section-->
+			<section class="container column parallax" id="education-section">
+				<div class="container column" id="text">
+					<h1 class="subtitle">EDUCATION</h1>
+					<div class="container row" id="education-title">
+						<img src="assets/img/Seattle_University_seal.svg">
+						<div class="container column" id="school">
+							<h2>Seattle University</h2>
+							<h3>B.S. - Computer Science, Business Specialization</h3>
+							<p>Expected Graduation: June 2024</p>
+						</div>
+					</div>
+					<div class="container column" id="coursework">
+						<h4>Relevant Coursework:</h4>
+						<p>Computer Science</p>
+						<ul>
+							<li>Intro to Computer Science (CPSC-1000)</li>
+							<li>Programming & Prob Solving I (CPSC-1420)</li>
+							<li>Programming & Prob Solving II (CPSC-1430)</li>
+							<li>Data Structures (CPSC-2430)</li>
+							<li>Computer Organization (CPSC-2500)</li>
+							<li>Foundations of Computer Sci (CPSC-2600)</li>
+							<li>Object-Oriented Development (CPSC-3200)</li>
+							<li>Fundamentals of Databases (CPSC-3300)</li>
+							<li>Languages and Computation (CPSC-3400)</li>
+							<li>Computing Systems (CPSC-3500)</li>
+							<li>The Art of Web Design (3700)*</li>
+							<li>Design & Analysis of Algorithm (CPSC-4100)</li>
+							<li>Graphics/Game Project (CPSC-4270)**</li>
+							<li>Tech Comm & Proj Management (CPSC-4800)**</li>
+							<li>Software Eng & Project Dev I (CPSC-4870)**</li>
+							<li>Software Eng & Project Dev II (CPSC-4880)**</li>
+							<li>Software Eng & Project Dev III (CPSC-4890)**</li>
+						</ul>
+						<p>Math</p>
+						<ul>
+							<li>Trigonometry (MATH-1022)</li>
+							<li>Calculus I (MATH-1334)</li>
+							<li>Calculus II (MATH-1335)</li>
+							<li>Calculus III (MATH-1336)</li>
+							<li>Linear Algebra (MATH-2320)</li>
+						</ul>
+						<p>Business</p>
+						<ul>
+							<li>Business Statistics (ECON-2100)</li>
+							<li>Principles of Econ-Micro (ECON-2110)**</li>
+							<li>Princpls of Acctg I:financial (ACCT-2300)*</li>
+							<li>Business Communication (BCOM-2800)*</li>
+							<li>Principles of Management (MGMT-3000)**</li>
+							<li>Introduction to Marketing (MKGT-3500)**</li>
+							<li>Business and International Law (BLAW-3700)**</li>
+						</ul>
+						<p id="progress">*in progress</p>
+						<p id="progress">**planned</p>
+					</div>
 				</div>
 			</section>
 
