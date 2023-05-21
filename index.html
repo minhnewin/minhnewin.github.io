@@ -7,7 +7,7 @@
 		<meta name="keywords" content="Minh Nguyen, Seattle University">
 
   		<link rel="stylesheet" href="assets/css/styles.css">
-  		<link rel="icon" href="assets/img/icon-m.png">
+  		<link rel="icon" href="assets/img/achead.png">
 		<link rel="stylesheet" href="https://use.typekit.net/ufg7hqz.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Source+Sans+Pro&display=swap">
 
@@ -231,8 +231,157 @@
 				</div>
 			</section>
 
+			<!--Project Section-->
+			<section class="container column" id="project-section">
+				<h1 class="subtitle">PROJECTS</h1>
+
+				<!--Filter Buttons-->
+				<div class="contianer row" id="button-section">
+					<button class="filter-button active" onclick="filterSelection('all')">All</button>
+					<button class="filter-button" onclick="filterSelection('c++')">C++</button>
+					<button class="filter-button" onclick="filterSelection('c#')">C#</button>
+					<button class="filter-button" onclick="filterSelection('python')">Python</button>
+					<button class="filter-button" onclick="filterSelection('web')">Web Dev</button>
+				</div>
+
+				<!--Individual Projects-->
+				<div class="container row" id="project-container">
+
+					<div class="each-project c#">
+					  <img class="proj-img" src="assets/img/maze.png"/>
+					  <div class="proj-description container column">
+					  	<div class="img-description">
+							<h2>3D Maze Generation</h2>
+							<p>Utilized <b>recursive backtracking</b> algorithm techniques to create unique maze generation in a 3D environment.</h3>
+							<br>
+							<br>
+							<a href="https://github.com/minhnewin/Maze-Generation" target="_blank">Repository</a>
+							<br>
+							<br>
+							<i>C#, Unity</i>
+						</div>
+					  </div>
+					</div>
+					
+					<div class="each-project c#">
+						<img class="proj-img" src="assets/img/pong.png"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>Simple 2D Pong</h2>
+							  <p>Utilized 2D ball physics and collisions with directional bounces in relation to user paddles and movement.</h3>
+							  <br>
+							  <br>
+							  <a href="https://github.com/minhnewin/Simple-Pong" target="_blank">Repository</a>
+							  <br>
+							  <br>
+							  <i>C#, Unity</i>
+						  </div>
+						</div>
+					  </div>
+
+					  <div class="each-project python">
+						<img class="proj-img" src="assets/img/chess.png"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>Classic 2D Chess</h2>
+							  <p>Recreated the classic two-player chess game on a 2D board that allows a player to play against another player,
+								taking turns and moving pieces according to chess rules.</h3>
+							  <br>
+							  <br>
+							  <a href="https://github.com/minhnewin/simplechess" target="_blank">Repository</a>
+							  <br>
+							  <br>
+							  <i>Python</i>
+						  </div>
+						</div>
+					  </div>
+
+					  <div class="each-project python">
+						<img class="proj-img" src="assets/img/tictactoe.png"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>Tic-Tac-Toe</h2>
+							  <p>Recreated the classic two-player board game in 2D that allows players to switch between taking turns and placing a marker of an X or an O to indicate and claim the tile.</h3>
+							  <br>
+							  <br>
+							  <a href="https://github.com/minhnewin/TicTacToe" target="_blank">Repository</a>
+							  <br>
+							  <br>
+							  <i>Python</i>
+						  </div>
+						</div>
+					  </div>
+
+					  <div class="each-project c++ c#">
+						<img class="proj-img" src="assets/img/workout.png"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>Workout Tracker</h2>
+							  <p>Developed an <b>OOP</b> tracking system to record, review, and store data based on a personal workout regimen.</h3>
+							  <br>
+							  <br>
+							  <a href="https://github.com/minhnewin/cpsc3200---Workout-Tracker" target="_blank">Repository</a>
+							  <br>
+							  <br>
+							  <i>C++, C#</i>
+						  </div>
+						</div>
+					  </div>
+
+					  <div class="each-project web">
+						<img class="proj-img" src="assets/img/personal.png"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>Personal Portfolio</h2>
+							  <p>Designed and developed a personal portfolio website using HTML, CSS, and JavaScript. Showcased a collection of projects and skills through visually appealing sections.</h3>
+							  <br>
+							  <br>
+							  <a href="https://github.com/minhnewin/minhnewin.github.io" target="_blank">Repository</a>
+							  <br>
+							  <br>
+							  <i>HTML, CSS, JavaScript</i>
+						  </div>
+						</div>
+					  </div>
+
+					  <div class="each-project web">
+						<img class="proj-img" src="assets/img/restaurant.png"/>
+						<div class="proj-description container column">
+							<div class="img-description">
+							  <h2>Restaurant Management Database</h2>
+							  <p>Built a responsive website that allowed users to track orders, inventory, and sales for a restaurant.</h3>
+							  <br>
+							  <br>
+							  <a href="https://github.com/minhnewin/cpsc3300---Restaurant-Management-Database" target="_blank">Repository</a>
+							  <br>
+							  <br>
+							  <i>HTML, CSS, PHP, SQL</i>
+						  </div>
+						</div>
+					  </div>
+
+				</div>
+			</section>
+
+
+			<!--Footer/Contact-->
+			<section class="container column" id="footer">
+				<div class="container row" id="social-container">
+					<a href="https://www.linkedin.com/in/minhnewin/" target="_blank">LinkedIn</a>
+					<span>•</span>
+					<a href="https://github.com/minhnewin" target="_blank">Github</a>
+					<span>•</span>
+					<a href="https://www.instagram.com/minhnewin/?hl=en" target="_blank">Instagram</a>
+					<span>•</span>
+					<a href="mailto:minhnewin@gmail.com" target="_blank">Email</a>
+				</div>
+				<div>
+					<p id="copyright">Coded by Minh 2023 ©</p>
+				</div>
+			</section>
+
         </div>
 		<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 		<script src="assets/scripts/scripts.js"></script>
     </body>
-</html>>
+</html>
