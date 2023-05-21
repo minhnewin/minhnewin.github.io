@@ -143,7 +143,7 @@ a:hover {
 	width: 300px;
 }
 
-.arrow {
+.arrow-down {
 	border: solid black;
 	border-color: #575757;
 	border-width: 0 3px 3px 0;
@@ -156,7 +156,7 @@ a:hover {
   	margin: 20px;
 }
 
-.arrow:hover {
+.arrow-down:hover {
 	-webkit-animation-play-state: paused;
 	opacity: 60%;
 	transform: scale(1.25) rotate(45deg);
@@ -440,7 +440,7 @@ ul {
 }
 
 #social-container a {
-	color: #575757;
+	color: #444444;
 	transition: .4s;
 }
 
@@ -449,6 +449,6 @@ ul {
 }
 
 #copyright {
-	color: #8d8d8d;
+	color: #444444;
 	font-size:14px;
 }
